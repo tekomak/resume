@@ -1,0 +1,109 @@
+.body-section {
+  background-color: #F5F5F5;
+}
+
+.short-details h1 {
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.role {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.left-side, .right-side {
+  padding: 1.5%;
+}
+
+.left-side {
+  background-color: #D3D3D3;
+  column-span: none;
+  border-radius: 4%
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 15px;
+}
+
+.details a {
+  text-decoration: none;
+  color: black
+}
+
+.details, .profile, .skills {
+  padding: 1% 8%;
+}
+
+.right-side {
+  background-color: #F5F5F5;
+}
+
+.subject-header {
+  column-span: all;
+}
+
+.details {
+  display: table-cell;
+}
+
+.subject {
+  display: table;
+  padding-left: 2px;
+}
+
+.body-section h2 {
+  border-collapse: collapse;
+  display: table-cell;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.body-section h3 {
+  border-collapse: collapse;
+  display: table-cell;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.sub-name {
+  font-weight: 600;
+}
+
+.sub-time {
+  display: table-cell;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.sub-items {
+  padding-left: 20px;
+}
+
+.body-text {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.foot-section {
+  background-color: #F8F8F8;
+  align-self: center;
+}
+
+@media print {
+  html, body{
+    size: 210mm 297mm;
+    margin: auto;
+
+  }
+}
